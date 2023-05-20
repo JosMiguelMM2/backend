@@ -13,7 +13,7 @@ import { EntityUserController } from './app/controllers/entity_user/entity_user.
 import { FrecuencyController } from './app/controllers/frecuency/frecuency.controller';
 import { GenderController } from './app/controllers/gender/gender.controller';
 import { GovernmentEntityController } from './app/controllers/government_entity/government_entity.controller';
-import { GradeAffectationController } from './app/controllers/grade_affectation/grade_affectation.controller';
+//import { GradeAffectationController } from './app/controllers/grade_affectation/grade_affectation.controller';
 import { LocationsController } from './app/controllers/locations/locations.controller';
 import { PaymentController } from './app/controllers/payment/payment.controller';
 import { PhoneController } from './app/controllers/phone/phone.controller';
@@ -66,7 +66,7 @@ import config from './config/configuration'
     FrecuencyController,
     GenderController,
     GovernmentEntityController,
-    GradeAffectationController,
+    //GradeAffectationController,
     LocationsController,
     PaymentController,
     PhoneController,
