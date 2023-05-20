@@ -13,7 +13,7 @@ import { EntityUserController } from './app/controllers/entity_user/entity_user.
 import { FrecuencyController } from './app/controllers/frecuency/frecuency.controller';
 import { GenderController } from './app/controllers/gender/gender.controller';
 import { GovernmentEntityController } from './app/controllers/government_entity/government_entity.controller';
-//import { GradeAffectationController } from './app/controllers/grade_affectation/grade_affectation.controller';
+import { GradeAffectationController } from './app/controllers/grade_affectation/grade_affectation.controller';
 import { LocationsController } from './app/controllers/locations/locations.controller';
 import { PaymentController } from './app/controllers/payment/payment.controller';
 import { PhoneController } from './app/controllers/phone/phone.controller';
@@ -28,7 +28,7 @@ import { EntityUserService } from './app/services/entity_user/entity_user.servic
 import { FrecuencyService } from './app/services/frecuency/frecuency.service';
 import { GenderService } from './app/services/gender/gender.service';
 import { GovernmentEntityService } from './app/services/government_entity/government_entity.service';
-//import { GradeAffectationService } from './app/services/grade_affectation/grade_affectation.service';
+import { GradeAffectationService } from './app/services/grade_affectation/grade_affectation.service';
 import { LocationsService } from './app/services/locations/locations.service';
 import { PaymentService } from './app/services/payment/payment.service';
 import { PhoneService } from './app/services/phone/phone.service';
@@ -66,7 +66,7 @@ import config from './config/configuration'
     FrecuencyController,
     GenderController,
     GovernmentEntityController,
-    //GradeAffectationController,
+    GradeAffectationController,
     LocationsController,
     PaymentController,
     PhoneController,
@@ -84,7 +84,7 @@ import config from './config/configuration'
     FrecuencyService,
     GenderService,
     GovernmentEntityService,
-    //GradeAffectationService,
+    GradeAffectationService,
     LocationsService,
     PaymentService,
     PhoneService,
