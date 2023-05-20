@@ -8,7 +8,7 @@ pruebas.http
 # dotenv environment variable files
 
 Pruebas.http
-
+.env
 # Logs
 logs
 *.log
