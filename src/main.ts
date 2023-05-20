@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // TODO: Agregar direccion del front al cors
   app.enableCors({
-    origin: 'http://localhost:4200',
+    origin: `https://frontend-n5kh.vercel.app/`,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept',
   });
